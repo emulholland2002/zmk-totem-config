@@ -11,6 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
@@ -127,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none         &none       &none      &none                     &none    &none  &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
-       &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &mt LEFT_GUI KP_NUMBER_0  &none    &none  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp RIGHT_ALT
-&none  &none         &none       &none      &none                     &none    &none  &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none          &none
-                                 &none      &none                     &none    &none  &none                      &none
+                &none         &none       &none      &none                     &none    &none  &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
+                &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &mt LEFT_GUI KP_NUMBER_0  &none    &none  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp RIGHT_ALT
+&bt BT_CLR_ALL  &none         &none       &none      &none                     &none    &none  &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none          &none
+                                          &none      &none                     &none    &none  &none                      &none
             >;
         };
 
