@@ -128,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &none         &none       &none      &none                     &none    &none  &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
-                &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &mt LEFT_GUI KP_NUMBER_0  &none    &none  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp RIGHT_ALT
-&bt BT_CLR_ALL  &none         &none       &none      &none                     &none    &none  &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none          &none
-                                          &none      &none                     &none    &none  &none                      &none
+                &none      &none     &none      &none               &none    &none            &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
+                &kp MINUS  &kp PLUS  &kp SLASH  &mt LEFT_GUI EQUAL  &none    &kp KP_NUMBER_0  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp RIGHT_ALT
+&bt BT_CLR_ALL  &none      &none     &none      &none               &none    &none            &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none          &none
+                                     &none      &none               &none    &none            &none                      &none
             >;
         };
 
@@ -154,10 +154,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp CARET          &kp AMPERSAND          &kp AT_SIGN        &kp LEFT_BRACE         &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &kp PIPE         &kp BSLH                    &none
-       &mt LEFT_ALT HASH  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI ASTERISK  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL MINUS  &mt RIGHT_SHIFT UNDERSCORE  &mt RIGHT_ALT COLON
-&none  &kp TILDE          &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION           &kp SLASH          &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD       &kp COMMA                   &none                &none
-                                                 &trans             &trans                 &trans             &trans                &trans                           &trans
+       &kp CARET          &kp AMPERSAND          &kp ASTERISK       &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &none           &kp BSLH               &none
+       &mt LEFT_ALT HASH  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI SLASH  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL PIPE  &mt RIGHT_SHIFT MINUS  &mt RIGHT_ALT UNDERSCORE
+&none  &kp TILDE          &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION        &kp AT             &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD      &kp COMMA              &none                     &none
+                                                 &trans             &trans              &trans             &trans                &trans                           &trans
             >;
         };
     };
