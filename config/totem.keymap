@@ -154,10 +154,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp CARET                     &kp AMPERSAND          &kp ASTERISK       &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &none           &kp BSLH               &none
-       &mt LEFT_ALT LA(KP_NUMBER_3)  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI SLASH  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL PIPE  &mt RIGHT_SHIFT MINUS  &mt RIGHT_ALT UNDERSCORE
-&none  &kp TILDE                     &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION        &kp AT             &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD      &kp COMMA              &none                     &none
-                                                            &trans             &trans              &trans             &trans                &trans                           &trans
+       &kp CARET                 &kp AMPERSAND          &kp ASTERISK       &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &none           &kp BSLH               &none
+       &mt LEFT_ALT NON_US_HASH  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI SLASH  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL PIPE  &mt RIGHT_SHIFT MINUS  &mt RIGHT_ALT UNDERSCORE
+&none  &kp TILDE                 &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION        &kp AT             &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD      &kp COMMA              &none                     &none
+                                                        &trans             &trans              &trans             &trans                &trans                           &trans
             >;
         };
     };
