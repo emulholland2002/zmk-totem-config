@@ -102,10 +102,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none     &kp UP    &none      &none    &none          &none               &kp PG_UP            &none                &none
-       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp RIGHT_GUI  &mt RIGHT_GUI HOME  &mt RCTRL PAGE_DOWN  &mt RIGHT_SHIFT END  &kp RIGHT_ALT
-&none  &none  &none     &none     &none      &none    &none          &none               &none                &none                &none          &none
-                        &none     &none      &none    &none          &none               &none
+       &none  &none     &kp UP    &none      &none    &none  &none               &kp PG_UP            &none                &none
+       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none  &mt RIGHT_GUI HOME  &mt RCTRL PAGE_DOWN  &mt RIGHT_SHIFT END  &none
+&none  &none  &none     &none     &none      &none    &none  &none               &none                &none                &none  &none
+                        &none     &none      &none    &none  &none               &none
             >;
         };
 
@@ -128,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &none      &none     &none      &none               &none           &none            &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
-                &kp MINUS  &kp PLUS  &kp SLASH  &mt LEFT_GUI EQUAL  &kp LEFT_ALT    &kp KP_NUMBER_0  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &none
-&bt BT_CLR_ALL  &none      &none     &none      &none               &none           &none            &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none  &none
-                                     &none      &none               &none           &none            &none                      &none
+                &none               &none                &none            &none               &none    &none            &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
+                &mt LEFT_ALT MINUS  &mt LEFT_SHIFT PLUS  &mt LCTRL SLASH  &mt LEFT_GUI EQUAL  &none    &kp KP_NUMBER_0  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &none
+&bt BT_CLR_ALL  &none               &none                &none            &none               &none    &none            &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none  &none
+                                                         &none            &none               &none    &none            &none                      &none
             >;
         };
 
