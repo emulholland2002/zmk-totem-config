@@ -128,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &none      &none     &none      &none               &none    &none            &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
-                &kp MINUS  &kp PLUS  &kp SLASH  &mt LEFT_GUI EQUAL  &none    &kp KP_NUMBER_0  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &kp RIGHT_ALT
-&bt BT_CLR_ALL  &none      &none     &none      &none               &none    &none            &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none          &none
-                                     &none      &none               &none    &none            &none                      &none
+                &none      &none     &none      &none               &none           &none            &kp KP_N7                  &kp KP_NUMBER_8        &kp KP_N9                    &none
+                &kp MINUS  &kp PLUS  &kp SLASH  &mt LEFT_GUI EQUAL  &kp LEFT_ALT    &kp KP_NUMBER_0  &mt RIGHT_GUI KP_NUMBER_4  &mt RCTRL KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &none
+&bt BT_CLR_ALL  &none      &none     &none      &none               &none           &none            &kp KP_NUMBER_1            &kp KP_NUMBER_2        &kp KP_NUMBER_3              &none  &none
+                                     &none      &none               &none           &none            &none                      &none
             >;
         };
 
