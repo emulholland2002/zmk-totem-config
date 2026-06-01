@@ -76,10 +76,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp DOUBLE_QUOTES  &kp COMMA         &kp PERIOD   &kp P           &kp Y          &kp F            &kp G            &kp C        &kp R              &kp L
-         &mt LALT A         &mt LEFT_SHIFT O  &mt LCTRL E  &mt LEFT_GUI U  &kp I          &kp D            &mt RIGHT_GUI H  &mt RCTRL T  &mt RIGHT_SHIFT N  &mt RIGHT_ALT S
-&kp F20  &kp SEMICOLON      &kp Q             &kp J        &kp K           &kp X          &kp B            &kp M            &kp W        &kp V              &kp Z            &kp F21
-                                              &kp ESCAPE   &lt 2 TAB       &lt 3 SPACE    &lt 1 BACKSPACE  &kp ENTER        &kp F22
+              &kp DOUBLE_QUOTES  &kp COMMA         &kp PERIOD   &kp P           &kp Y          &kp F            &kp G            &kp C        &kp R              &kp L
+              &mt LALT A         &mt LEFT_SHIFT O  &mt LCTRL E  &mt LEFT_GUI U  &kp I          &kp D            &mt RIGHT_GUI H  &mt RCTRL T  &mt RIGHT_SHIFT N  &mt RIGHT_ALT S
+&kp CAPSLOCK  &kp SEMICOLON      &kp Q             &kp J        &kp K           &kp X          &kp B            &kp M            &kp W        &kp V              &kp Z            &kp BACKSPACE
+                                                   &kp ESCAPE   &lt 2 TAB       &lt 3 SPACE    &lt 1 BACKSPACE  &kp ENTER        &kp F22
             >;
         };
 
@@ -102,10 +102,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none     &kp UP    &none      &none    &none  &none     &kp PG_UP      &none    &none
-       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none  &kp HOME  &kp PAGE_DOWN  &kp END  &none
-&none  &none  &none     &none     &none      &none    &none  &none     &none          &none    &none  &none
-                        &none     &none      &none    &none  &none     &none
+       &none  &none     &kp UP    &none      &none    &none          &none               &kp PG_UP            &none                &none
+       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp RIGHT_GUI  &mt RIGHT_GUI HOME  &mt RCTRL PAGE_DOWN  &mt RIGHT_SHIFT END  &kp RIGHT_ALT
+&none  &none  &none     &none     &none      &none    &none          &none               &none                &none                &none          &none
+                        &none     &none      &none    &none          &none               &none
             >;
         };
 
@@ -154,10 +154,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp CARET          &kp AMPERSAND          &kp ASTERISK       &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &none           &kp BSLH               &none
-       &mt LEFT_ALT HASH  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI SLASH  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL PIPE  &mt RIGHT_SHIFT MINUS  &mt RIGHT_ALT UNDERSCORE
-&none  &kp TILDE          &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION        &kp AT             &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD      &kp COMMA              &none                     &none
-                                                 &trans             &trans              &trans             &trans                &trans                           &trans
+       &kp CARET                     &kp AMPERSAND          &kp ASTERISK       &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &none           &kp BSLH               &none
+       &mt LEFT_ALT LA(KP_NUMBER_3)  &mt LEFT_SHIFT DOLLAR  &mt LCTRL PERCENT  &mt LEFT_GUI SLASH  &kp EQUAL          &kp LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &mt RCTRL PIPE  &mt RIGHT_SHIFT MINUS  &mt RIGHT_ALT UNDERSCORE
+&none  &kp TILDE                     &kp SINGLE_QUOTE       &kp EXCLAMATION    &kp QUESTION        &kp AT             &kp LESS_THAN         &kp GREATER_THAN                 &kp PERIOD      &kp COMMA              &none                     &none
+                                                            &trans             &trans              &trans             &trans                &trans                           &trans
             >;
         };
     };
